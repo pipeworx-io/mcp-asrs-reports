@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-asrs-reports",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "NASA Aviation Safety Reporting System (ASRS) — de-identified aviation safety incident narratives.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-asrs-reports": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "asrs-reports"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-asrs-reports.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/asrs-reports",
   "pipeworx": {
-    "sourceHash": "v1-724a112cd91678f9aced5fafabc01f9890862a3b8d73db38bca097102701585d",
-    "sourceCommit": "4f465027cf3de54acf4976d8118ae3423a8ec9fa"
+    "mode": "gateway",
+    "slug": "asrs-reports",
+    "gatewaySlug": "asrs-reports",
+    "sourceHash": "v1-14c15d63fb8f930259558d1bbfa0c2e99c54ac258ddbdf3585373182fe1587f1",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
