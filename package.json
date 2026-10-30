@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-asrs-reports",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NASA Aviation Safety Reporting System (ASRS) — de-identified aviation safety incident narratives.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "asrs-reports",
     "gatewaySlug": "asrs-reports",
-    "sourceHash": "v1-14c15d63fb8f930259558d1bbfa0c2e99c54ac258ddbdf3585373182fe1587f1",
-    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
+    "sourceHash": "v1-964837bbf271990358bcfd142565afb3663280ab874acda2956f4d05d14aa4e2",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }

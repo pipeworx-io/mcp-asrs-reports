@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/asrs-reports",
   "title": "Asrs Reports",
   "description": "NASA Aviation Safety Reporting System (ASRS) — de-identified aviation safety incident narratives.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/asrs-reports",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-asrs-reports",
